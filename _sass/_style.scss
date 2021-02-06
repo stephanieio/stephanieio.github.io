@@ -1,0 +1,48 @@
+.img-profile {
+  border-radius: 50%;
+  width: 120px;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  float: left;
+}
+
+.img-wrap {
+  height: 125px;
+  width: 100%;
+}
+
+.post-tags {
+  color: #aaa;
+  font-weight: 300;
+  font-size: .8rem;
+  text-transform: lowercase;
+  display: block;
+  letter-spacing: 1px;
+}
+
+.post-tags > .item {
+  padding: 3px 6px;
+  border-radius: 3px;
+  font-size: .8rem;
+  background: #ededed;
+  color: #666;
+  letter-spacing: 1px;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.sub-left {
+  width: 20%;
+  float: left;
+}
+
+.sub-right {
+  // width: 80%;
+  float: right;
+}
+
+@media only screen and (max-width: 40em) {
+  .sub-left, .sub-right {
+    width: 100%;
+  }
+}

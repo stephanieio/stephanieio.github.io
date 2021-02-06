@@ -1,0 +1,14 @@
+# Jekyll Site Settings
+title: Stephanie Chang
+email: changmstephanie@gmail.com
+description: >
+  I'm a software engineer @ Blizzard Entertainment.
+  Previously a software engineer @ The Boeing Company.
+  Computer Science @ UC Irvine.
+baseurl: ""
+url: "http://stephanie.io" 
+
+markdown: kramdown
+highlighter: rouge
+
+show-tags: true
